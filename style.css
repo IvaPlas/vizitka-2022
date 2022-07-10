@@ -10,19 +10,24 @@
   align-items: center;
   font-family: 'Koulen', cursive;
   border: 2px groove black;
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .photo {
   width: 150px;
 }
 
-.info {
-  display: flex;
-  gap: 50px;
+.status {
+  margin: 0;
 }
 
-.icon {
-  width: 50px;
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-right: 40px;
 }
 
 .contact {
@@ -30,4 +35,18 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
+}
+
+.icon {
+  width: 50px;
+  cursor: pointer;
+}
+
+a:hover {
+  margin: 3px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
 }
